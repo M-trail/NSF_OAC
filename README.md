@@ -1,5 +1,5 @@
 # NSF-OAC
-# Sparse Gaussian process regression stochastic fundamental diagram model considering empirical/physics prior
+# Sparse Gaussian process regression fundamental diagram model considering empirical/physics prior
 In the Zip file PRGP.zip, we conduct codes that train sparse Gaussian process regression fundamental diagram models. Several well-known single-regime fundamental diagram models are calibrated and taken as the mean function (prior) of our proposed non-parametric regression model; the calibration code is also included in this repository. The 2D and 3D representations of the proposed stochastic fundamental models are attached.
 # Weighted-least-square-method-for-single-regime-fundamental-diagram-models
 In the Zip file WLSM-New.zip, we conduct codes reproduce the weighted least square method presented in "On the fundamental diagram for freeway traffic: A novel calibration approach for single-regime models.", which helps us to calibrate empirical/physics fundamental diagram models so that those calibrated models can be used as the prior. The representation of these calibrated models is also attached.
