@@ -1,6 +1,6 @@
 # NSF-OAC
 # Weighted-least-square-method-for-single-regime-fundamental-diagram-models
-In Zip file, we conduct codes reproduces the weighted least square method presented in "On the fundamental diagram for freeway traffic: A novel calibration approach for single-regime models.", which helps us to calibrate empirical/physics fundamental diagram models so that those calibrated models can be used as the prior.
+In the Zip file WLSM-New.zip, we conduct codes reproduce the weighted least square method presented in "On the fundamental diagram for freeway traffic: A novel calibration approach for single-regime models.", which helps us to calibrate empirical/physics fundamental diagram models so that those calibrated models can be used as the prior.
 <br> To cite the origin paper, please take a look at the [transportation research part B: Methodology paper](https://www.sciencedirect.com/science/article/pii/S0191261515000041). Sample Bibtex is given below:
 ```
 @article{QU201591,
