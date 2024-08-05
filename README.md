@@ -14,6 +14,7 @@ The expected deliverable will be a public cloud-based platform that is easy to a
 <p align="center">
   <img src="Picture/2024-08.gif" width="800">
 </p>
+
 ## Publications
 1. **Azin Bahar, Yang Xianfeng (Terry), Marković Nikola, Liu Mingxi** - "Infrastructure enabled and electrified automation: Charging facility planning for cleaner smart mobility" - Transportation Research Part D: Transport and Environment, 2021. [DOI: 10.1016/j.trd.2021.103079](https://doi.org/10.1016/j.trd.2021.103079)
 2. **Zhang Huijie, Li Pu, Liu Xiaobai, Yang Xianfeng, An Li** - "An Iterative Semi-Supervised Approach with Pixel-wise Contrastive Loss for Road Extraction in Aerial Images" - ACM Transactions on Multimedia Computing Communications and Applications, 2023. [DOI: 10.1145/3606374](https://doi.org/10.1145/3606374)
