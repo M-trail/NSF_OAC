@@ -11,7 +11,7 @@ This multidisciplinary research project aims to contribute improved algorithms i
 
 The expected deliverable will be a public cloud-based platform that is easy to access and capable of incorporating new data streams for model improvement. After validating the models with field data, the project will connect the simulations with existing automated driving systems for testing. This project can have broad impacts on other science and engineering fields such as physics-supported artificial intelligence, smart and autonomous systems, and other research domains that depend on simulated data.
 ## Demo
-![Simulation Demo](Picture/2024-08.gif)
+<img src="Picture/2024-08.gif" width="800" height="400">
 ## Publications
 1. **Azin Bahar, Yang Xianfeng (Terry), Marković Nikola, Liu Mingxi** - "Infrastructure enabled and electrified automation: Charging facility planning for cleaner smart mobility" - Transportation Research Part D: Transport and Environment, 2021. [DOI: 10.1016/j.trd.2021.103079](https://doi.org/10.1016/j.trd.2021.103079)
 2. **Zhang Huijie, Li Pu, Liu Xiaobai, Yang Xianfeng, An Li** - "An Iterative Semi-Supervised Approach with Pixel-wise Contrastive Loss for Road Extraction in Aerial Images" - ACM Transactions on Multimedia Computing Communications and Applications, 2023. [DOI: 10.1145/3606374](https://doi.org/10.1145/3606374)
