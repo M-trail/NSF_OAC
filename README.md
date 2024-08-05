@@ -11,6 +11,7 @@ This multidisciplinary research project aims to contribute improved algorithms i
 
 The expected deliverable will be a public cloud-based platform that is easy to access and capable of incorporating new data streams for model improvement. After validating the models with field data, the project will connect the simulations with existing automated driving systems for testing. This project can have broad impacts on other science and engineering fields such as physics-supported artificial intelligence, smart and autonomous systems, and other research domains that depend on simulated data.
 ## Demo
+Dynamic weather and road friction changes in the CARLA Sumo Co-simulation environment
 <p align="center">
   <img src="Picture/2024-08.gif" width="800">
 </p>
