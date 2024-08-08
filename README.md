@@ -18,7 +18,7 @@ Dynamic weather and road friction changes in the CARLA Sumo Co-simulation Enviro
 
 Winter weather real-life driving scenario
 <p align="center">
-  <img src="Picture/Trajectory" width="800">
+  <img src="Picture/Trajectory.gif" width="800">
 </p>
 
 ## Publications
