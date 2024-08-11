@@ -3,16 +3,47 @@
 
 For detailed documentation, please visit: [NSF OAC Documentation](https://nsf-oac.readthedocs.io/en/latest/)
 
-## Project Overview
-This multidisciplinary research project aims to contribute improved algorithms in simulation and fundamental knowledge in computing to build an advanced cyberinfrastructure toolkit. The project focuses on producing a stochastic simulation platform that can evaluate the capabilities of AVs' automated driving systems. The motivation is to produce a reliable tool that can model stochastic vehicle behaviors, study vehicle dynamics, and predict potential AV safety risks under adverse driving conditions in winter.
+# Project Overview
 
-### Key Objectives
-1. Leverage the physics principles of a microscopic traffic model to regularize the machine learning process for simulating vehicle interactions.
-2. Predict both multi-vehicle and single-vehicle crash probabilities in mixed traffic by integrating the traffic simulation model with a new vehicle dynamics model.
-3. Assess AV safety performance on icy/snowy pavement by studying stochastic vehicle motions.
-4. Integrate the models into an open-source software package with comprehensive documentation and multiple application cases.
+This multidisciplinary research project aims to develop an advanced cyberinfrastructure toolkit that significantly improves algorithms in simulation and enhances fundamental knowledge in computing. The focus of the project is to create a stochastic simulation platform capable of thoroughly evaluating the capabilities of Autonomous Vehicles' (AVs) Automated Driving Systems (ADS), especially under adverse winter driving conditions.
 
-The expected deliverable will be a public cloud-based platform that is easy to access and capable of incorporating new data streams for model improvement. After validating the models with field data, the project will connect the simulations with existing automated driving systems for testing. This project can have broad impacts on other science and engineering fields such as physics-supported artificial intelligence, smart and autonomous systems, and other research domains that depend on simulated data.
+The motivation behind this research is to build a reliable tool that can accurately model stochastic vehicle behaviors, study vehicle dynamics, and predict potential AV safety risks when faced with icy or snowy road conditions. This is crucial for ensuring the safety and reliability of AVs before widespread implementation.
+
+## Key Objectives
+
+- **Physics-Regularized Modeling**: Leverage the principles of physics through a Physics Regularized Gaussian Process (PRGP) model to enhance the machine learning process used for simulating vehicle interactions on icy/snowy roads.
+  
+- **Crash Risk Prediction**: Predict both multi-vehicle and single-vehicle crash probabilities in mixed traffic environments by integrating the traffic simulation model with a new vehicle dynamics model, accounting for the complexities of winter driving conditions.
+  
+- **Safety Assessment**: Conduct comprehensive safety assessments of AV performance on icy and snowy pavement by analyzing stochastic vehicle motions and the corresponding risk factors.
+
+- **Open-Source Platform Development**: Integrate the developed models into an open-source software package with extensive documentation and numerous application cases. The goal is to create a public, cloud-based platform that is easily accessible and capable of incorporating new data streams for continuous model improvement.
+
+## Research Thrusts
+
+To overcome the challenges associated with assessing AV safety in winter driving conditions, the project will focus on the following research thrusts:
+
+- **Thrust 1: Stochastic Simulation with Vehicle Behavioral Modeling**  
+  Using vehicle trajectories and pavement ice/snow patterns obtained from roadside videos as the training dataset, a novel microscopic model will be designed to simulate Human Vehicle (HV) behaviors on icy/snowy roads using the **Physics Regularized Gaussian Process (PRGP)** technique.
+
+- **Thrust 2: AV Safety Assessment with Vehicle Dynamic Modeling**  
+  By studying vehicle dynamic factors that affect AVs' safety performance on slippery roads, an efficient, reliable, and accurate model will be developed to predict the crash risks of AVs in a mixed HV-AV environment under adverse driving conditions.
+
+- **Thrust 3: Platform Development with Incremental Online Learning**  
+  The models and algorithms will be integrated into an open-source software package, with comprehensive documentation and numerous application cases. The expected deliverable is a public cloud-based service that is easy to access and capable of adopting new data streams from users for ongoing model improvement.
+
+- **Thrust 4: Validation and Transition-to-Practice Plan**  
+  Validation will first be conducted using field data collected in Utah. The transition-to-practice plan includes:  
+  1. Connecting the platform to the existing federal cyberinfrastructure, CARMA, to ensure research sustainability.  
+  2. Testing the simulation platform with the operating autonomous shuttles of the CARS Lab at Wayne State University.  
+  3. Deploying this simulation platform to AV testbeds for broader application.
+
+## Broader Impacts
+
+The expected outcomes of this project include a public cloud-based simulation platform that not only facilitates the assessment of AV safety in winter conditions but also serves as a valuable resource for the broader AV research community. By validating the models with real-world data and integrating them with existing automated driving systems, this project aims to ensure the practical applicability and sustainability of the developed toolkit.
+
+Additionally, this research has the potential to impact other scientific and engineering fields, such as physics-supported artificial intelligence, smart and autonomous systems, and any research domain that relies on simulated data for critical evaluations.
+
 ## Demo
 Dynamic weather and road friction changes in the CARLA Sumo Co-simulation Environment
 <p align="center">
