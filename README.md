@@ -195,6 +195,13 @@ Dr. Xianfeng Terry Yang
 - Tel: 301-405-2881
 - Email: xtyang@umd.edu
 
+**Ph.D. Student:**
+Dianwei Chen
+- A. James Clark School of Engineering, Civil and Environmental Engineering
+- 3107 Jeong H. Kim Engineering Building
+- Tel: 301-405-7768
+- Email: dwchen98@umd.edu
+
 ## Instructions for Building Customized Simulation
 - Download the Calibrated Co-Simulation
 - Submit Your Request [Here]
