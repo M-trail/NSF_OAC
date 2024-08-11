@@ -21,6 +21,9 @@ The motivation behind this research is to build a reliable tool that can accurat
 </p>
 
 - **Open-Source Platform Development**: Integrate the developed models into an open-source software package with extensive documentation and numerous application cases. The goal is to create a public, cloud-based platform that is easily accessible and capable of incorporating new data streams for continuous model improvement.
+<p align="center">
+  <img src="Picture/ResearchOverview_page_1.png" width="800">
+</p>
 
 ## Research Thrusts
 
