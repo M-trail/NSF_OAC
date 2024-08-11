@@ -78,14 +78,6 @@ Additionally, this research has the potential to impact other scientific and eng
 
 To get started with CARLA, you can visit the [official documentation](https://carla.readthedocs.io/)&[NSF_OAC project documentation](https://nsf-oac.readthedocs.io/en/latest/) and follow the installation instructions. 
 
-### Applications
-
-CARLA is widely used in autonomous driving research, particularly in areas like:
-
-- **Reinforcement Learning**: Training autonomous driving models using reinforcement learning algorithms.
-- **Perception**: Testing and validation of perception systems for obstacle detection, traffic sign recognition, and more.
-- **Planning and Control**: Developing and testing path planning and vehicle control algorithms in a safe and controlled environment.
-
 ### Resources
 - [UMD NSF_OAC Project Group](https://nsf-oac.readthedocs.io/en/latest/)
 - [CARLA GitHub Repository](https://github.com/carla-simulator/carla)
@@ -119,14 +111,6 @@ CARLA is widely used in autonomous driving research, particularly in areas like:
 ### Getting Started
 
 To get started with SUMO, you can visit the [official documentation](https://sumo.dlr.de/docs/)&[NSF_OAC project documentation](https://nsf-oac.readthedocs.io/en/latest/) and follow the installation instructions. The SUMO community also provides a variety of tutorials and examples to help you learn how to use the simulator effectively.
-
-### Applications
-
-SUMO is widely used in traffic research and autonomous driving studies, particularly in areas like:
-
-- **Traffic Flow Optimization**: Analyzing and optimizing traffic flow on urban road networks to reduce congestion and improve efficiency.
-- **Autonomous Vehicle Testing**: Simulating complex traffic scenarios to test and validate autonomous vehicle behavior in a controlled environment.
-- **Urban Planning**: Supporting urban planners and engineers in designing more efficient and sustainable transportation systems.
 
 ### Resources
 - [UMD NSF_OAC Project Group](https://nsf-oac.readthedocs.io/en/latest/)
