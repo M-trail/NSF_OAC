@@ -130,7 +130,7 @@ CARLA and SUMO can be integrated to create a comprehensive simulation environmen
 For setup and configuration, refer to the [CARLA-SUMO co-simulation guide](https://carla-simulator.readthedocs.io/en/latest/adv_sumo/)&[NSF_OAC project documentation](https://nsf-oac.readthedocs.io/en/latest/).
 
 ## Resources
-- [UMD NSF_OAC Project Group](https://nsf-oac.readthedocs.io/en/latest/)
+- [NSF_OAC project documentation](https://nsf-oac.readthedocs.io/en/latest/)
 - [CARLA-SUMO Co-Simulation Documentation](https://carla-simulator.readthedocs.io/en/latest/adv_sumo/)
 - [CARLA GitHub Repository](https://github.com/carla-simulator/carla)
 - [CARLA Documentation](https://carla.readthedocs.io/)
