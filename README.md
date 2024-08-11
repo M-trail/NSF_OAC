@@ -139,12 +139,12 @@ For setup and configuration, refer to the [CARLA-SUMO co-simulation guide](https
 - [SUMO Documentation](https://sumo.dlr.de/docs/)
 - [SUMO User Community](https://sumo.dlr.de/wiki/Main_Page)
 
-## CARLA-SUMO Co-Simulation in Town04
+## Co-simulation Demo
 
 This CARLA-SUMO co-simulation is designed to run in CARLA's Town04 environment, leveraging SUMO as the backbone for managing traffic flow. The simulation uniquely incorporates dynamic changes in weather conditions and road friction, reflecting real-world driving scenarios that autonomous vehicles may encounter.
 
 <p align="center">
-  <img src="Picture/carla_town04.png" width="600" alt="CARLA Town04 Simulation">
+  <img src="Picture/2024-08.gif" width="800" alt="CARLA Town04 Simulation">
 </p>
 
 ### Dynamic Environmental Factors
@@ -152,11 +152,6 @@ This CARLA-SUMO co-simulation is designed to run in CARLA's Town04 environment, 
 - **Weather Variability**: The simulation dynamically adjusts weather conditions, including rain, fog, and varying levels of sunlight, to test the robustness of autonomous vehicle systems under different environmental challenges.
 - **Friction Variation**: Road friction is dynamically altered during the simulation to simulate conditions such as icy or wet roads, which can significantly impact vehicle control and safety.
 
-## Demo
-Dynamic weather and road friction changes in the CARLA Sumo Co-simulation Environment
-<p align="center">
-  <img src="Picture/2024-08.gif" width="800">
-</p>
 
 ## Snowy Vehicle Trajectory Data
 The snowy dataset was collected by the team at the I-695 highway segment in Baltimore, Maryland, United States on 01/15/2024 using a drone. A total of 50 minutes of video footage was captured in 4K resolution at 30 frames per second and subsequently processed into vehicle trajectory data.
