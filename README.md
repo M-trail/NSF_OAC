@@ -98,7 +98,7 @@ CARLA is widely used in autonomous driving research, particularly in areas like:
 [SUMO (Simulation of Urban MObility)](https://www.eclipse.org/sumo/) is an open-source, highly portable, microscopic, and continuous traffic simulation package designed to handle large road networks. SUMO allows researchers and developers to simulate how traffic evolves on real-world and fictional road networks, supporting a wide range of applications in traffic engineering, urban planning, and autonomous driving.
 
 <p align="center">
-  <img src="Picture/sumo_simulation.jpg" width="200" alt="SUMO Simulation">
+  <img src="Picture/sumo-logo.png" width="200" alt="SUMO Simulation">
 </p>
 
 - **Microscopic Traffic Simulation**: SUMO simulates individual vehicle behavior, including lane changing, traffic light handling, and other complex interactions, allowing for detailed studies of traffic dynamics.
@@ -108,8 +108,8 @@ CARLA is widely used in autonomous driving research, particularly in areas like:
 ### Key Features
 
 <p align="center">
-  <img src="Picture/sumo_network_editor.jpg" width="400" alt="SUMO Network Editor">
-  <img src="Picture/sumo_vehicle_scenario.jpg" width="400" alt="SUMO Vehicle Scenario">
+  <img src="Picture/GNETLS.png" width="400" alt="SUMO Network Editor">
+  <img src="Picture/intersection.png" width="400" alt="SUMO Vehicle Scenario">
 </p>
 
 - **Flexible Network Import**: SUMO can import road networks from various sources, including OpenStreetMap (OSM), and allows users to define custom road networks using XML-based configuration files.
