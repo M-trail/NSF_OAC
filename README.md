@@ -51,6 +51,48 @@ The expected outcomes of this project include a public cloud-based simulation pl
 
 Additionally, this research has the potential to impact other scientific and engineering fields, such as physics-supported artificial intelligence, smart and autonomous systems, and any research domain that relies on simulated data for critical evaluations.
 
+## Introduction to CARLA
+
+[CARLA](http://carla.org/) is an open-source simulator for autonomous driving research. It provides a highly flexible platform where you can test and validate autonomous vehicle (AV) models in realistic urban environments. CARLA supports the development, training, and validation of autonomous driving systems, with a variety of features including:
+
+<p align="center">
+  <img src="Picture/CarlaEnvironment.png" width="600" alt="CARLA Environment">
+</p>
+
+- **Highly Realistic 3D Environment**: CARLA provides a high-fidelity simulation environment with a variety of urban and rural settings, complete with buildings, vehicles, pedestrians, and weather conditions.
+- **Flexible API**: The CARLA Python API allows for easy integration with different autonomous driving stacks, enabling control of vehicles, sensors, and the environment programmatically.
+- **Open Source and Extensible**: CARLA is open-source and highly extensible, allowing researchers to modify and add new features according to their needs.
+
+### Key Features
+
+<p align="center">
+  <img src="Picture/CarlaSensors.png" width="400" alt="CARLA Sensors">
+  <img src="Picture/CarlaWeather.png" width="400" alt="Dynamic Weather in CARLA">
+</p>
+
+- **Multiple Sensors**: CARLA supports a wide range of sensors, including cameras, LiDARs, radars, and GNSS, which can be used to gather data or for real-time vehicle control.
+- **Dynamic Weather**: The simulator allows for dynamic changes in weather and lighting, which is crucial for testing AV systems under different conditions.
+- **Scenario Runner**: CARLA includes a Scenario Runner module to create complex driving scenarios for testing AVs, including multi-agent interactions and challenging driving conditions.
+
+### Getting Started
+
+To get started with CARLA, you can visit the [official documentation](https://carla.readthedocs.io/)&[NSF_OAC project documentation](https://nsf-oac.readthedocs.io/en/latest/) and follow the installation instructions. 
+
+### Applications
+
+CARLA is widely used in autonomous driving research, particularly in areas like:
+
+- **Reinforcement Learning**: Training autonomous driving models using reinforcement learning algorithms.
+- **Perception**: Testing and validation of perception systems for obstacle detection, traffic sign recognition, and more.
+- **Planning and Control**: Developing and testing path planning and vehicle control algorithms in a safe and controlled environment.
+
+### Resources
+- [UMD NSF_OAC Project Group](https://nsf-oac.readthedocs.io/en/latest/)
+- [CARLA GitHub Repository](https://github.com/carla-simulator/carla)
+- [CARLA Documentation](https://carla.readthedocs.io/)
+- [CARLA Discord Community](https://discord.gg/carla-simulator)
+
+
 ## Demo
 Dynamic weather and road friction changes in the CARLA Sumo Co-simulation Environment
 <p align="center">
