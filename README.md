@@ -56,7 +56,7 @@ Additionally, this research has the potential to impact other scientific and eng
 [CARLA](http://carla.org/) is an open-source simulator for autonomous driving research. It provides a highly flexible platform where you can test and validate autonomous vehicle (AV) models in realistic urban environments. CARLA supports the development, training, and validation of autonomous driving systems, with a variety of features including:
 
 <p align="center">
-  <img src="Picture/carla.jpg" width="600" alt="CARLA Environment">
+  <img src="Picture/carla.jpg" width="200" alt="CARLA Environment">
 </p>
 
 - **Highly Realistic 3D Environment**: CARLA provides a high-fidelity simulation environment with a variety of urban and rural settings, complete with buildings, vehicles, pedestrians, and weather conditions.
