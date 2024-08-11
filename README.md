@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Picture/M-TRAIL.png" width="500">
+  <img src="Picture/M-TRAIL.png" width="400">
 </p>
 
 # Stochastic Simulation Platform for Assessing Safety Performance of Autonomous Vehicles in Winter Seasons
