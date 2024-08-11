@@ -55,7 +55,7 @@ The expected outcomes of this project include a public cloud-based simulation pl
 
 Additionally, this research has the potential to impact other scientific and engineering fields, such as physics-supported artificial intelligence, smart and autonomous systems, and any research domain that relies on simulated data for critical evaluations.
 
-## Introduction to CARLA
+## CARLA Simulator
 
 [CARLA](http://carla.org/) is an open-source simulator for autonomous driving research. It provides a highly flexible platform where you can test and validate autonomous vehicle (AV) models in realistic urban environments. CARLA supports the development, training, and validation of autonomous driving systems, with a variety of features including:
 
@@ -89,7 +89,7 @@ To get started with CARLA, you can visit the [official documentation](https://ca
 - [CARLA Discord Community](https://discord.gg/carla-simulator)
 
 
-## Introduction to SUMO
+## SUMO (Simulation of Urban MObility)
 
 [SUMO (Simulation of Urban MObility)](https://www.eclipse.org/sumo/) is an open-source, highly portable, microscopic, and continuous traffic simulation package designed to handle large road networks. SUMO allows researchers and developers to simulate how traffic evolves on real-world and fictional road networks, supporting a wide range of applications in traffic engineering, urban planning, and autonomous driving.
 
@@ -122,12 +122,12 @@ To get started with SUMO, you can visit the [official documentation](https://sum
 - [SUMO Documentation](https://sumo.dlr.de/docs/)
 - [SUMO User Community](https://sumo.dlr.de/wiki/Main_Page)
 
-## CARLA-SUMO Co-Simulation
+## CARLA SUMO Co-Simulation
 
 CARLA and SUMO can be integrated to create a comprehensive simulation environment that combines detailed vehicle dynamics with large-scale traffic management. This setup allows researchers to test autonomous vehicles in realistic traffic scenarios where CARLA handles vehicle behavior and sensor data, while SUMO manages overall traffic flow.
 
 <p align="center">
-  <img src="Picture/carla_sumo_cosim.png" width="600" alt="CARLA-SUMO Co-Simulation">
+  <img src="Picture/ptv_cosim.gif" width="600" alt="CARLA SUMO Co-Simulation">
 </p>
 
 ### Key Benefits
