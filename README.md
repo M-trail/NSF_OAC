@@ -17,7 +17,7 @@ The motivation behind this research is to build a reliable tool that can accurat
   
 - **Safety Assessment**: Conduct comprehensive safety assessments of AV performance on icy and snowy pavement by analyzing stochastic vehicle motions and the corresponding risk factors. 
 <p align="center">
-  <img src="Picture/VehicleForces_page_1.png" width="800">
+  <img src="Picture/VehicleForces_page_1.png" width="400">
 </p>
 
 - **Open-Source Platform Development**: Integrate the developed models into an open-source software package with extensive documentation and numerous application cases. The goal is to create a public, cloud-based platform that is easily accessible and capable of incorporating new data streams for continuous model improvement.
