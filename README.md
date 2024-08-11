@@ -182,8 +182,8 @@ Dr. Yang's current research areas include machine learning for transportation mo
   - Co-simulation 
   - Download
 
-## News and Media
-Stay tuned for updates on our research progress and upcoming publications.
+## News 
+[2024/08/01] Platform 1.0 released
 
 ## Contact
 For more information or to get involved, please contact:
@@ -204,7 +204,7 @@ Dianwei Chen
 
 ## Instructions for Building Customized Simulation
 - Download the Calibrated Co-Simulation
-- Submit Your Request [Here]
+- Submit Your Request [Here](https://docs.google.com/forms/d/e/1FAIpQLScdl_o81CnDwrLWl0toRjGA4rjD7miFQwG6giEKb38vaFUNdQ/viewform?usp=sf_link)
 
 ---
 © 2024 Autonomous Vehicle Safety Performance Simulation Project
