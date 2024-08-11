@@ -118,7 +118,7 @@ CARLA is widely used in autonomous driving research, particularly in areas like:
 
 ### Getting Started
 
-To get started with SUMO, you can visit the [official documentation](https://sumo.dlr.de/docs/) and follow the installation instructions. The SUMO community also provides a variety of tutorials and examples to help you learn how to use the simulator effectively.
+To get started with SUMO, you can visit the [official documentation](https://sumo.dlr.de/docs/)&[NSF_OAC project documentation](https://nsf-oac.readthedocs.io/en/latest/) and follow the installation instructions. The SUMO community also provides a variety of tutorials and examples to help you learn how to use the simulator effectively.
 
 ### Applications
 
@@ -129,6 +129,7 @@ SUMO is widely used in traffic research and autonomous driving studies, particul
 - **Urban Planning**: Supporting urban planners and engineers in designing more efficient and sustainable transportation systems.
 
 ### Resources
+- [UMD NSF_OAC Project Group](https://nsf-oac.readthedocs.io/en/latest/)
 - [SUMO GitHub Repository](https://github.com/eclipse/sumo)
 - [SUMO Documentation](https://sumo.dlr.de/docs/)
 - [SUMO User Community](https://sumo.dlr.de/wiki/Main_Page)
