@@ -144,7 +144,7 @@ For setup and configuration, refer to the [CARLA-SUMO co-simulation guide](https
 This CARLA-SUMO co-simulation is designed to run in CARLA's Town04 environment, leveraging SUMO as the backbone for managing traffic flow. The simulation uniquely incorporates dynamic changes in weather conditions and road friction, reflecting real-world driving scenarios that autonomous vehicles may encounter.
 
 <p align="center">
-  <img src="Picture/2024-08.gif" width="800" alt="CARLA Town04 Simulation">
+  <img src="Picture/2024-08.gif" width="1000" alt="CARLA Town04 Simulation">
 </p>
 
 ### Dynamic Environmental Factors
