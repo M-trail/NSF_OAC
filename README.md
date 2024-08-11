@@ -122,6 +122,34 @@ To get started with SUMO, you can visit the [official documentation](https://sum
 - [SUMO Documentation](https://sumo.dlr.de/docs/)
 - [SUMO User Community](https://sumo.dlr.de/wiki/Main_Page)
 
+## CARLA-SUMO Co-Simulation
+
+CARLA and SUMO can be integrated to create a comprehensive simulation environment that combines detailed vehicle dynamics with large-scale traffic management. This setup allows researchers to test autonomous vehicles in realistic traffic scenarios where CARLA handles vehicle behavior and sensor data, while SUMO manages overall traffic flow.
+
+<p align="center">
+  <img src="Picture/carla_sumo_cosim.png" width="600" alt="CARLA-SUMO Co-Simulation">
+</p>
+
+### Key Benefits
+
+- **Realistic Traffic Scenarios**: CARLA provides high-fidelity vehicle simulation, while SUMO efficiently simulates large-scale traffic, enabling realistic urban driving environments.
+- **Traffic and Signal Integration**: Synchronize traffic lights and signals between SUMO and CARLA to test vehicle interactions with traffic control systems.
+- **Scenario-Based Testing**: Create and simulate complex traffic scenarios, such as dense urban traffic, to evaluate autonomous driving algorithms.
+
+### Getting Started
+
+For setup and configuration, refer to the [CARLA-SUMO co-simulation guide](https://carla-simulator.readthedocs.io/en/latest/adv_sumo/).
+
+### Applications
+
+- **Urban Driving**: Simulate autonomous vehicles in complex traffic conditions.
+- **Traffic Management**: Test advanced traffic strategies with AV integration.
+- **Safety Assessment**: Evaluate AV systems in challenging traffic scenarios.
+
+### Resources
+- [CARLA-SUMO Co-Simulation Documentation](https://carla-simulator.readthedocs.io/en/latest/adv_sumo/)
+- [CARLA GitHub Repository](https://github.com/carla-simulator/carla)
+- [SUMO GitHub Repository](https://github.com/eclipse/sumo)
 
 
 
