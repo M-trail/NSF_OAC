@@ -82,12 +82,6 @@ Additionally, this research has the potential to impact other scientific and eng
 
 To get started with CARLA, you can visit the [official documentation](https://carla.readthedocs.io/)&[NSF_OAC project documentation](https://nsf-oac.readthedocs.io/en/latest/) and follow the installation instructions. 
 
-### Resources
-- [UMD NSF_OAC Project Group](https://nsf-oac.readthedocs.io/en/latest/)
-- [CARLA GitHub Repository](https://github.com/carla-simulator/carla)
-- [CARLA Documentation](https://carla.readthedocs.io/)
-- [CARLA Discord Community](https://discord.gg/carla-simulator)
-
 
 ## SUMO (Simulation of Urban MObility)
 
@@ -116,11 +110,6 @@ To get started with CARLA, you can visit the [official documentation](https://ca
 
 To get started with SUMO, you can visit the [official documentation](https://sumo.dlr.de/docs/)&[NSF_OAC project documentation](https://nsf-oac.readthedocs.io/en/latest/) and follow the installation instructions. The SUMO community also provides a variety of tutorials and examples to help you learn how to use the simulator effectively.
 
-### Resources
-- [UMD NSF_OAC Project Group](https://nsf-oac.readthedocs.io/en/latest/)
-- [SUMO GitHub Repository](https://github.com/eclipse/sumo)
-- [SUMO Documentation](https://sumo.dlr.de/docs/)
-- [SUMO User Community](https://sumo.dlr.de/wiki/Main_Page)
 
 ## CARLA SUMO Co-Simulation
 
@@ -138,18 +127,17 @@ CARLA and SUMO can be integrated to create a comprehensive simulation environmen
 
 ### Getting Started
 
-For setup and configuration, refer to the [CARLA-SUMO co-simulation guide](https://carla-simulator.readthedocs.io/en/latest/adv_sumo/).
+For setup and configuration, refer to the [CARLA-SUMO co-simulation guide](https://carla-simulator.readthedocs.io/en/latest/adv_sumo/)&[NSF_OAC project documentation](https://nsf-oac.readthedocs.io/en/latest/).
 
-### Applications
-
-- **Urban Driving**: Simulate autonomous vehicles in complex traffic conditions.
-- **Traffic Management**: Test advanced traffic strategies with AV integration.
-- **Safety Assessment**: Evaluate AV systems in challenging traffic scenarios.
-
-### Resources
+## Resources
+- [UMD NSF_OAC Project Group](https://nsf-oac.readthedocs.io/en/latest/)
 - [CARLA-SUMO Co-Simulation Documentation](https://carla-simulator.readthedocs.io/en/latest/adv_sumo/)
 - [CARLA GitHub Repository](https://github.com/carla-simulator/carla)
+- [CARLA Documentation](https://carla.readthedocs.io/)
+- [CARLA Discord Community](https://discord.gg/carla-simulator)
 - [SUMO GitHub Repository](https://github.com/eclipse/sumo)
+- [SUMO Documentation](https://sumo.dlr.de/docs/)
+- [SUMO User Community](https://sumo.dlr.de/wiki/Main_Page)
 
 
 
