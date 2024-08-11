@@ -17,7 +17,7 @@ build:
 
 # Build documentation in the "NSF_OAC/docs/source/" directory with Sphinx
 sphinx:
-  configuration: NSF_OAC/docs/source/conf.py
+  configuration: docs/source/conf.py
 
 # Optionally build your docs in additional formats such as PDF and ePub
 # formats:
