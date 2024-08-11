@@ -1,4 +1,7 @@
 # Stochastic Simulation Platform for Assessing Safety Performance of Autonomous Vehicles in Winter Seasons
+## Documentation
+
+For detailed documentation, please visit: [NSF OAC Documentation](https://nsf-oac.readthedocs.io/en/latest/)
 
 ## Project Overview
 This multidisciplinary research project aims to contribute improved algorithms in simulation and fundamental knowledge in computing to build an advanced cyberinfrastructure toolkit. The project focuses on producing a stochastic simulation platform that can evaluate the capabilities of AVs' automated driving systems. The motivation is to produce a reliable tool that can model stochastic vehicle behaviors, study vehicle dynamics, and predict potential AV safety risks under adverse driving conditions in winter.
