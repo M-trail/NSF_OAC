@@ -93,6 +93,49 @@ CARLA is widely used in autonomous driving research, particularly in areas like:
 - [CARLA Discord Community](https://discord.gg/carla-simulator)
 
 
+## Introduction to SUMO
+
+[SUMO (Simulation of Urban MObility)](https://www.eclipse.org/sumo/) is an open-source, highly portable, microscopic, and continuous traffic simulation package designed to handle large road networks. SUMO allows researchers and developers to simulate how traffic evolves on real-world and fictional road networks, supporting a wide range of applications in traffic engineering, urban planning, and autonomous driving.
+
+<p align="center">
+  <img src="Picture/sumo_simulation.jpg" width="200" alt="SUMO Simulation">
+</p>
+
+- **Microscopic Traffic Simulation**: SUMO simulates individual vehicle behavior, including lane changing, traffic light handling, and other complex interactions, allowing for detailed studies of traffic dynamics.
+- **Multi-Modal Traffic Support**: In addition to vehicles, SUMO can simulate pedestrians, bicycles, and public transportation, providing a comprehensive view of urban mobility.
+- **Open Source and Extensible**: SUMO is open-source and supports custom models and extensions, making it a versatile tool for traffic simulation research.
+
+### Key Features
+
+<p align="center">
+  <img src="Picture/sumo_network_editor.jpg" width="400" alt="SUMO Network Editor">
+  <img src="Picture/sumo_vehicle_scenario.jpg" width="400" alt="SUMO Vehicle Scenario">
+</p>
+
+- **Flexible Network Import**: SUMO can import road networks from various sources, including OpenStreetMap (OSM), and allows users to define custom road networks using XML-based configuration files.
+- **Traffic Demand Modeling**: SUMO provides tools for generating and simulating traffic demand, including vehicle routes, traffic lights, and other network elements.
+- **Multi-Vehicle Integration**: SUMO can be used in conjunction with other simulators like CARLA for co-simulation, enabling comprehensive studies of autonomous vehicles in realistic traffic scenarios.
+
+### Getting Started
+
+To get started with SUMO, you can visit the [official documentation](https://sumo.dlr.de/docs/) and follow the installation instructions. The SUMO community also provides a variety of tutorials and examples to help you learn how to use the simulator effectively.
+
+### Applications
+
+SUMO is widely used in traffic research and autonomous driving studies, particularly in areas like:
+
+- **Traffic Flow Optimization**: Analyzing and optimizing traffic flow on urban road networks to reduce congestion and improve efficiency.
+- **Autonomous Vehicle Testing**: Simulating complex traffic scenarios to test and validate autonomous vehicle behavior in a controlled environment.
+- **Urban Planning**: Supporting urban planners and engineers in designing more efficient and sustainable transportation systems.
+
+### Resources
+- [SUMO GitHub Repository](https://github.com/eclipse/sumo)
+- [SUMO Documentation](https://sumo.dlr.de/docs/)
+- [SUMO User Community](https://sumo.dlr.de/wiki/Main_Page)
+
+
+
+
 ## Demo
 Dynamic weather and road friction changes in the CARLA Sumo Co-simulation Environment
 <p align="center">
