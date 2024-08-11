@@ -170,17 +170,6 @@ Dr. Yang is an Assistant Professor (Transportation Engineering) in the Departmen
 
 Dr. Yang's current research areas include machine learning for transportation modeling, traffic operations with connected automated vehicles, traffic safety, transportation equity, transportation planning, etc. He is the recipient of the prestigious NSF CAREER award in 2021. He has published over 100 peer-reviewed research articles in journals and conferences. He is currently an editorial board member of Transportation Research Part C, the Associate Editor of ASCE Journal of Urban Planning and Development and IEEE OJ-Intelligent Transportation Systems, and the Handling Editor of TRB Transportation Research Record. He is also the Chair of INFORMS JST ITS committee and the Secretary of the ASCE Artificial Intelligence committee. He is an appointed member of two TRB standing committees (ACP25-Traffic Signal Systems and AMR20-Disaster Response, Emergency Evacuations, and Business Continuity). He serves as a panelist of NSF, NCHRP, and multiple USDOT University Transportation Centers.
 
-**Contact Information:**
-- Email: xtyang@umd.edu
-- Phone: 301-405-2881
-- [Website](https://cee.umd.edu/clark/faculty/1706/Xianfeng-Terry-Yang)
-- Department of Civil and Environmental Engineering, University of Maryland
-
-## Simulator and Resources
-- **Winter Season Autonomous Vehicle Safety Performance Simulation Platform**
-  - ADS Submission
-  - Co-simulation 
-  - Download
 
 ## News 
 [2024/08/01] Platform 1.0 released
