@@ -1,4 +1,4 @@
-CARLA (Car Learning to Act)
+CARLA
 ===========================
 
 CARLA is an open-source simulator for autonomous driving research. It provides high-fidelity urban environments, realistic vehicle models, and various sensors for simulating autonomous driving scenarios. CARLA supports the development, training, and validation of autonomous driving systems.
