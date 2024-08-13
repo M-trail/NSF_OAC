@@ -172,7 +172,7 @@ Dr. Yang's current research areas include machine learning for transportation mo
 
 
 ## News 
-[2024/08/01] Platform 1.0 released
+[2024/08/01] Version 1.0 released
 
 ## Contact
 For more information or to get involved, please contact:
