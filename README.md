@@ -193,7 +193,6 @@ In this example, the GA calibration parameters are set as follows:
 - The algorithm runs for a maximum of $$200$$ generations, with each generation comprising a population of $$100$$ individuals.
 - The mutation rate is set at $$0.05$$.
 - To balance computational intensity with model accuracy, a sampling rate of $$0.2$$ seconds is employed, which has been deemed sufficient for calibrating the car-following model.
-
 The calibration result is shown as follow:
 <p align="center">
   <img src="Picture/Calibration_example.png" width="400">
