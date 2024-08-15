@@ -194,9 +194,9 @@ In this example, the GA calibration parameters are set as follows:
 - The mutation rate is set at $$0.05$$.
 - To balance computational intensity with model accuracy, a sampling rate of $$0.2$$ seconds is employed, which has been deemed sufficient for calibrating the car-following model.
 
-The calibration result is shown as follow:
+The calibration results are shown below:
 <p align="center">
-  <img src="Picture/Calibration_example.png" width="400">
+  <img src="Picture/comparison_plots.png" width="400">
 </p>
 
 
