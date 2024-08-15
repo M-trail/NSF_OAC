@@ -193,13 +193,11 @@ In this example, the GA calibration parameters are set as follows:
 - The algorithm runs for a maximum of $$200$$ generations, with each generation comprising a population of $$100$$ individuals.
 - The mutation rate is set at $$0.05$$.
 - To balance computational intensity with model accuracy, a sampling rate of $$0.2$$ seconds is employed, which has been deemed sufficient for calibrating the car-following model.
+The calibration result is shown as follow:
+<p align="center">
+  <img src="Picture/Calibration_result" width="400">
+</p>
 
-
-## People
-### Dr. Xianfeng Terry Yang
-Dr. Yang is an Associate Professor (Transportation Engineering) in the Department of Civil & Environmental Engineering at the University of Maryland College Park. Dr. Yang received his Ph.D. and M.S. degrees in Civil Engineering from the University of Maryland College Park and his B.S. degree in Civil Engineering from Tsinghua University. Prior to joining UMD, Dr. Yang was an Assistant Professor at the University of Utah.
-
-Dr. Yang's current research areas include machine learning for transportation modeling, traffic operations with connected automated vehicles, traffic safety, transportation equity, transportation planning, etc. He is the recipient of the prestigious NSF CAREER award in 2021. He has published over 100 peer-reviewed research articles in journals and conferences. He is currently an editorial board member of Transportation Research Part C, the Associate Editor of ASCE Journal of Urban Planning and Development and IEEE OJ-Intelligent Transportation Systems, and the Handling Editor of TRB Transportation Research Record. He is also the Chair of INFORMS JST ITS committee and the Secretary of the ASCE Artificial Intelligence committee. He is an appointed member of two TRB standing committees (ACP25-Traffic Signal Systems and AMR20-Disaster Response, Emergency Evacuations, and Business Continuity). He serves as a panelist of NSF, NCHRP, and multiple USDOT University Transportation Centers.
 
 
 ## News 
