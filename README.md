@@ -152,12 +152,45 @@ This CARLA-SUMO co-simulation is designed to run in CARLA's Town04 environment, 
 - **Weather Variability**: The simulation dynamically adjusts weather conditions, including rain, fog, and varying levels of sunlight, to test the robustness of autonomous vehicle systems under different environmental challenges.
 - **Friction Variation**: Road friction is dynamically altered during the simulation to simulate conditions such as icy or wet roads, which can significantly impact vehicle control and safety.
 
-
-## Snowy Vehicle Trajectory Data
-Real-world snowy dataset was collected by the team at the I-695 highway segment in Baltimore, Maryland, United States on 01/15/2024 using a drone. A total of 50 minutes of video footage was captured in 4K resolution at 30 frames per second and subsequently processed into vehicle trajectory data. Dataset and guidelines for calibrating car-following models as well as the sample code could be found [here](https://github.com/M-trail/NSF_OAC/tree/main/Data).
+## Car-following Simulation Using Real-world Data
+### Snowy Vehicle Trajectory Data
+Real-world snowy dataset was collected by the team at the I-695 highway segment in Baltimore, Maryland, United States on 01/15/2024 using a drone. A total of 50 minutes of video footage was captured in 4K resolution at 30 frames per second and subsequently processed into vehicle trajectory data. Dataset could be found [here](https://github.com/M-trail/NSF_OAC/tree/main/Data).
 <p align="center">
   <img src="Picture/Trajectory.gif" width="800">
 </p>
+
+### Car-following Model Calibration
+
+Taking the Intelligent Driver Model (IDM) as an example, the IDM can be expressed as follows:
+
+![IDM Equation](https://latex.codecogs.com/png.latex?\frac{dv_{n}}{dt}=a[1-(\frac{v_{n}}{v_{0}})^{\delta}-(\frac{s^{*}(v_{n},\Delta%20v_{n})}{s_{n}})^2])
+
+The free accelerating term $$a[1 - (\frac{v_{n}}{v_{0}})^{\delta}]$$ governs the acceleration of the vehicle. Here, $$a$$ represents the maximum acceleration, and $$v_{0}$$ denotes the vehicle’s desired speed. Given an unobstructed path for a stationary vehicle, the vehicle would first accelerate at the rate of $$a$$, and the acceleration gradually decreases as the speed increases. Such reduction is controlled by the exponent term $$\delta$$, and the vehicle would not exceed its desired speed. In accordance with the IDM author's recommendation, usually $$\delta$$ is set to 4.
+
+Besides the model, calibration of a car-following model involves choosing an appropriate optimization algorithm, a goodness-of-fit (GoF) function, and a measure of performance (MoP). A popular algorithm for calibrating car-following models is the Genetic Algorithm (GA), a heuristic nonlinear optimization algorithm inspired by biological evolution. It has proven to be an effective and reasonable method for calibrating various car-following models.
+
+Furthermore, the combination of MoP and GoF can significantly influence the effectiveness of the calibration process. This example adopts the commonly used combinations for calibration: RMSE of spacing, as shown below:
+
+![RMSE Equation](https://latex.codecogs.com/png.latex?RMSE(s)%20=%20\sqrt{\frac{1}{T}\sum_{t%20=%201}^{T}[s_{i}(t)%20-%20\widetilde{s}_{i}(t)]^{2}})
+
+To ensure that the calibrated parameters of the IDM remain within a realistic range, their boundaries are defined as follows:
+
+- The time gap $$T$$ is set between $$[0.1, 3]$$ seconds.
+- The minimum spacing $$s_0$$ is limited to $$[1, 5]$$ meters.
+- The maximum acceleration is restricted to $$[0.1, 4]$$ m/s², which correlates with a maximum acceleration rate of 4 m/s² (equivalent to 0-100 km/h in 6 seconds).
+- The comfortable deceleration boundary is set at $$[0.1, 9]$$ m/s².
+- The upper limit of the desired velocity $$v_0$$ is set to $$33.6$$ m/s (120 km/h).
+
+Regarding the lower limit, it should be noted that this limit must exceed the highest velocity value observed in the dataset, a detail often overlooked in other studies. This is a critical consideration because if the actual velocity exceeds $$v_0$$, the power of 4 applied in the $$(v_{n}/v_{0})^4$$ term can induce an excessively large deceleration. It is important to remember that $$v_0$$ in the IDM is primarily designed for modeling acceleration and is not intended to handle deceleration scenarios.
+
+In this example, the parameters for executing the GA for calibration are as follows:
+
+- The GA will run for a maximum of $$200$$ generations, with each generation consisting of a population of $$100$$.
+- The mutation rate is set to $$0.05$$.
+- For the sake of computing intensity, the sampling rate employed in this study is $$0.2s$$, which has been deemed sufficient for calibrating the car-following model.
+
+The detailed guidelines and the sample code could be found [here](https://github.com/M-trail/NSF_OAC/tree/main/Data).
+
 
 ## People
 ### Dr. Xianfeng Terry Yang
