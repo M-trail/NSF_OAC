@@ -153,8 +153,9 @@ This CARLA-SUMO co-simulation is designed to run in CARLA's Town04 environment, 
 - **Friction Variation**: Road friction is dynamically altered during the simulation to simulate conditions such as icy or wet roads, which can significantly impact vehicle control and safety.
 
 ## Car-following Simulation Using Real-world Data
+The [snowy vehicle trajectory dataset](https://github.com/M-trail/NSF_OAC/blob/main/Data/Snowy_I-695_Sample01.csv), [comprehensive guidelines for calibrating car-following model](https://github.com/M-trail/NSF_OAC/blob/main/Data/Guidelines%20for%20Calibrating%20Car-Following%20Models.pdf) and the [sample code](https://github.com/M-trail/NSF_OAC/blob/main/Data/Sample.ipynb) are provided to users.
 ### Snowy Vehicle Trajectory Data
-Real-world snowy dataset was collected by the team at the I-695 highway segment in Baltimore, Maryland, United States on 01/15/2024 using a drone. A total of 50 minutes of video footage was captured in 4K resolution at 30 frames per second and subsequently processed into vehicle trajectory data. Dataset could be found [here](https://github.com/M-trail/NSF_OAC/tree/main/Data).
+Real-world snowy dataset was collected by the team at the I-695 highway segment in Baltimore, Maryland, United States on 01/15/2024 using a drone. A total of 50 minutes of video footage was captured in 4K resolution at 30 frames per second and subsequently processed into vehicle trajectory data. 
 <p align="center">
   <img src="Picture/Trajectory.gif" width="800">
 </p>
@@ -192,8 +193,6 @@ In this example, the GA calibration parameters are set as follows:
 - The algorithm runs for a maximum of $$200$$ generations, with each generation comprising a population of $$100$$ individuals.
 - The mutation rate is set at $$0.05$$.
 - To balance computational intensity with model accuracy, a sampling rate of $$0.2$$ seconds is employed, which has been deemed sufficient for calibrating the car-following model.
-
-The detailed guidelines and the sample code could be found [here](https://github.com/M-trail/NSF_OAC/tree/main/Data).
 
 
 ## People
