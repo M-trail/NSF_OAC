@@ -159,7 +159,7 @@ Real-world snowy dataset was collected by the team at the I-695 highway segment 
   <img src="Picture/Trajectory.gif" width="800">
 </p>
 
-## Car-following Model Calibration
+### Car-following Model Calibration
 
 The Intelligent Driver Model (IDM) is a widely used car-following model in traffic flow theory. The IDM can be expressed mathematically as:
 
