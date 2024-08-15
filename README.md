@@ -157,7 +157,7 @@ The [snowy vehicle trajectory dataset](https://github.com/M-trail/NSF_OAC/blob/m
 ### Snowy Vehicle Trajectory Data
 Real-world snowy dataset was collected by the team at the I-695 highway segment in Baltimore, Maryland, United States on 01/15/2024 using a drone. A total of 50 minutes of video footage was captured in 4K resolution at 30 frames per second and subsequently processed into vehicle trajectory data. 
 <p align="center">
-  <img src="Picture/Trajectory.gif" width="800">
+  <img src="Picture/Trajectory.gif" width="1000">
 </p>
 
 ### Car-following Model Calibration
