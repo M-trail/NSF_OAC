@@ -154,7 +154,7 @@ This CARLA-SUMO co-simulation is designed to run in CARLA's Town04 environment, 
 
 
 ## Snowy Vehicle Trajectory Data
-The snowy dataset was collected by the team at the I-695 highway segment in Baltimore, Maryland, United States on 01/15/2024 using a drone. A total of 50 minutes of video footage was captured in 4K resolution at 30 frames per second and subsequently processed into vehicle trajectory data.
+Real-world snowy dataset was collected by the team at the I-695 highway segment in Baltimore, Maryland, United States on 01/15/2024 using a drone. A total of 50 minutes of video footage was captured in 4K resolution at 30 frames per second and subsequently processed into vehicle trajectory data. Dataset and guidelines for calibrating car-following models could be found [here](https://github.com/M-trail/NSF_OAC/tree/main/Data).
 <p align="center">
   <img src="Picture/Trajectory.gif" width="800">
 </p>
