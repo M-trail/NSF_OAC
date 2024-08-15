@@ -196,7 +196,7 @@ In this example, the GA calibration parameters are set as follows:
 
 The calibration results are shown below:
 <p align="center">
-  <img src="Picture/comparison_plots.png" width="400">
+  <img src="Picture/comparison_plots.png" width="800">
 </p>
 
 
