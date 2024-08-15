@@ -163,7 +163,9 @@ Real-world snowy dataset was collected by the team at the I-695 highway segment 
 
 The Intelligent Driver Model (IDM) is a widely used car-following model in traffic flow theory. The IDM can be expressed mathematically as:
 
-![IDM Equation](https://latex.codecogs.com/png.latex?\frac{dv_{n}}{dt}=a[1-(\frac{v_{n}}{v_{0}})^{\delta}-(\frac{s^{*}(v_{n},\Delta%20v_{n})}{s_{n}})^2])
+<p align="center">
+  <img src="https://latex.codecogs.com/png.latex?\frac{dv_{n}}{dt}=a[1-(\frac{v_{n}}{v_{0}})^{\delta}-(\frac{s^{*}(v_{n},\Delta%20v_{n})}{s_{n}})^2]" alt="IDM Equation" />
+</p>
 
 In this model, the free acceleration term, $$a\left[1 - \left(\frac{v_{n}}{v_{0}}\right)^{\delta}\right]$$, governs the vehicle’s acceleration. Here, $$a$$ represents the maximum possible acceleration, and $$v_{0}$$ denotes the desired speed of the vehicle. When the road ahead is clear, a stationary vehicle accelerates at the rate of $$a$$, with this rate gradually decreasing as the vehicle’s speed increases. The reduction in acceleration is controlled by the exponent $$\delta$$, ensuring that the vehicle does not exceed its desired speed. Following the IDM author's recommendation, $$\delta$$ is typically set to 4.
 
@@ -171,14 +173,16 @@ Calibration of a car-following model like the IDM involves selecting an appropri
 
 The combination of MoP and GoF plays a crucial role in the success of the calibration process. In this example, we utilize the Root Mean Square Error (RMSE) of spacing as the performance metric, which can be computed as follows:
 
-![RMSE Equation](https://latex.codecogs.com/png.latex?RMSE(s)%20=%20\sqrt{\frac{1}{T}\sum_{t%20=%201}^{T}[s_{i}(t)%20-%20\widetilde{s}_{i}(t)]^{2}})
+<p align="center">
+  <img src="https://latex.codecogs.com/png.latex?RMSE(s)%20=%20\sqrt{\frac{1}{T}\sum_{t%20=%201}^{T}[s_{i}(t)%20-%20\widetilde{s}_{i}(t)]^{2}}" alt="RMSE Equation" />
+</p>
 
 To ensure that the calibrated IDM parameters remain within realistic and practical bounds, the following constraints are applied:
 
 - The time gap $$T$$ is restricted to the range of $$[0.1, 3]$$ seconds.
 - The minimum spacing $$s_0$$ is set between $$[1, 5]$$ meters.
 - The maximum acceleration $$a$$ is limited to $$[0.1, 4]$$ m/s², which corresponds to an acceleration rate allowing a vehicle to reach 100 km/h in approximately 6 seconds.
-- The comfortable deceleration $$b$$ is capped at $$[0.1, 9]$$ m/s².
+- The comfortable deceleration is capped at $$[0.1, 9]$$ m/s².
 - The upper bound for the desired velocity $$v_0$$ is set at 33.6 m/s (120 km/h).
 
 It is essential to note that the lower limit for $$v_0$$ should exceed the highest observed velocity in the dataset. This detail is often overlooked in other studies but is crucial, as exceeding $$v_0$$ in real-world conditions can lead to an exaggerated deceleration due to the power term $$(\frac{v_{n}}{v_{0}})^4$$. This factor underlines that $$v_0$$ in the IDM is primarily intended to model acceleration, not deceleration scenarios.
